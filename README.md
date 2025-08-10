@@ -15,7 +15,7 @@ python app.py
 
 ## 🖥️ Interface Preview
 ![Therapeutic chat interface with response analysis panel](assets/psychlogy-design.png)
-![Detetct imotion and answer accordingly](assets/220_250.png)
+![Detetct imotion and answer accordingly](assets/200_250.png)
 ![Example](./assets/1.png)
 *Fig 1. Real-time emotion detection in conversation*
 
