@@ -5,10 +5,10 @@ from transformers import pipeline
 import os
 import requests
 
-# Load environment variables
-load_dotenv()
-api_key = os.getenv("MISTRAL_API_KEY")
-model = os.getenv("MISTRAL_MODEL")
+# # Load environment variables
+# load_dotenv()
+# api_key = os.getenv("MISTRAL_API_KEY")
+# model = os.getenv("MISTRAL_MODEL")
 
 # Emotion classifier
 emotion_classifier = pipeline("sentiment-analysis", model="j-hartmann/emotion-english-distilroberta-base", top_k=1)
